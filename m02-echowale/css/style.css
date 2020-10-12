@@ -1,0 +1,263 @@
+*
+{
+    box-sizing: border-box;
+}
+
+
+
+/*GENERAL*/
+
+body 
+{
+    font-family: Verdana, sans-serif;
+    line-height: 1.5;
+    font-size: 1rem;
+    color: #666;
+}
+
+h1,h2
+{
+    color: #03a0c6;
+}
+
+a
+{
+    color: #ff8508;
+}
+
+
+
+
+/*HEADER*/
+
+header
+{
+    background-color:#6db800;
+}
+
+
+header nav
+{
+    float: right;
+    padding-top: 80px;
+    font-size: 1.5rem;
+    
+}
+
+header nav a
+{
+    text-decoration: none;
+    color: #03a0c6;
+    margin-right: 70px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+header nav a:hover
+{
+    color: #fff;
+    background-color: #c96500;
+}
+
+h1,h2,nav
+{
+    font-family: 'Oswald', sans-serif; 
+}
+
+h1
+{
+    font-size: 1.875rem;
+    margin-top: 0;
+    text-align: center;
+    text-shadow: #666 0.1em 0.1em 0.2em;
+    margin-top: 15px;
+    word-spacing: .5rem;
+    letter-spacing: 5px;
+}
+
+h2
+{
+    font-size: 1.5rem;
+}
+
+
+
+.fas,.far
+{
+    color: #FF8508;
+}
+
+
+
+/*MAIN*/
+
+.container
+{
+    
+    width: 60%;
+    margin: 0 auto;
+}
+
+.sticker
+{
+    background-color: #ff8508;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: -30px;
+    right: -30px;
+    transform: rotate(25deg);
+    box-shadow: 3px 3px 3px 3px #666;
+    
+}
+
+.sticker img
+{
+    width: 95%;
+    padding: 5px;    
+}
+
+main
+{
+    background-image: url(../img/bg-masthead.jpg);
+    padding: 30px;
+        
+}
+
+
+.bgw
+{
+    background-color: white;
+    padding: 20px;
+    position: relative;
+}
+
+article
+{
+    width: 46%;
+    display: inline-block;
+    text-align: justify;
+    margin: 0 2%;
+    vertical-align: top;
+}
+
+
+
+article a
+{
+    color: white;
+    background-color: #ff8508;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-family: Verdana, sans-serif;
+    font-size: 1rem;
+    float: right;
+}
+
+article a:hover
+{
+    color: #c96500;
+}
+
+.imgLeft
+{
+    float: left;
+    margin-right: 10px;
+    width: 50%;
+}
+
+.imgRight
+{
+    float: right;
+    margin-left: 10px;
+    width: 50%;
+}
+
+
+
+h1,h2
+{
+    text-transform: uppercase;
+}
+
+table
+{
+    border-collapse: collapse;
+    border-color: #ddd;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    line-height: 1.5;
+    font-size: 1rem;
+    color: #666;
+}
+
+th,td
+{
+    border: 1px solid #ddd;
+}
+
+th
+{
+    background-color: #000;
+    color: white;
+}
+
+
+/*METTRE BACKGROUND COLOR CELLULE IMPAIR*/
+tr:nth-child(odd)
+{
+    background-color: #ddd;
+    color:black;
+    
+}
+
+td:nth-child(1)
+{
+    text-align: left;
+}
+
+caption
+{
+    caption-side: bottom;
+    font-family: Verdana, sans-serif;
+    line-height: 1.5;
+    font-size: 1rem;
+    color: #666;
+}
+
+ul 
+{
+    font-family: Verdana, sans-serif;
+    line-height: 1.5;
+    font-size: 1rem;
+    color: #666;
+}
+
+
+/*FOOTER*/
+
+footer
+{
+    background-color: #FF8508;
+    text-indent: 0;
+    line-height: 1.2;
+    text-align: center;
+    padding: 15px;
+}
+
+footer p
+{
+    margin-bottom: 0;
+    
+}
+
+footer a
+{
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+}
+
